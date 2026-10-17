@@ -22,7 +22,7 @@ npm run preview
 
 ## Edit the site
 
-- **Brand colors, typography, spacing and responsive styles:** `src/index.css`. The Aura palette is defined in the `:root` variables and Tailwind v4 `@theme` block. Google Fonts are linked from `index.html` (Bodoni Moda and Manrope).
+- **Brand colors, typography, spacing and responsive styles:** `src/index.css`. The Aura palette is defined in the `:root` variables and Tailwind v4 `@theme` block. Google Fonts are linked from `index.html` (Marcellus and Manrope).
 - **Saree cards and editorial photography:** `src/data/sarees.js`. Update each saree's `name`, `category`, `image`, `alt`, `position`, and `priceLabel` here. All sample cards are marked as placeholders.
 - **Hero and editorial images:** change the `editorialImages` values in `src/data/sarees.js`.
 - **Image credits:** `src/data/imageCredits.js` records the temporary Pexels source pages. Review Pexels' current terms before commercial publication. Replace placeholder images with photos you have permission to use; do not imply that a placeholder is a product sold by Aura Fabrics.
