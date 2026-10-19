@@ -105,9 +105,7 @@ img { display: block; max-width: 100%; }
 .hero-frame-detail { position: absolute; z-index: 2; right: 0; bottom: 10%; width: 37%; height: 33%; overflow: hidden; border: 8px solid var(--aura-snow); background: var(--aura-powder); box-shadow: 0 18px 45px rgba(16,45,76,.11); }
 .hero-image-label { position: absolute; z-index: 3; top: 8%; left: 0; display: flex; flex-direction: column; gap: 5px; color: var(--aura-navy); font-size: .61rem; font-weight: 700; letter-spacing: .18em; writing-mode: vertical-rl; }
 .hero-image-label span { color: var(--aura-azure); font-size: .53rem; }
-.hero-art-index { position: absolute; bottom: 0; left: 2%; display: inline-flex; align-items: center; gap: 9px; color: var(--aura-muted); font-size: .59rem; letter-spacing: .12em; }
-.hero-art-index i, .section-index i { width: 35px; height: 1px; background: var(--aura-powder); }
-.hero-side-note { position: absolute; right: -4%; top: 40%; color: var(--aura-azure); font-family: var(--serif); font-size: .9rem; font-style: italic; writing-mode: vertical-rl; }
+.section-index i { width: 35px; height: 1px; background: var(--aura-powder); }
 .scroll-cue { position: absolute; bottom: 20px; left: max(5%, calc((100% - var(--container)) / 2)); display: flex; align-items: center; gap: 9px; color: var(--aura-muted); font-size: .56rem; font-weight: 700; letter-spacing: .16em; }
 .scroll-cue svg { color: var(--aura-azure); }
 
@@ -324,8 +322,6 @@ img { display: block; max-width: 100%; }
   .hero-frame-main { top: 2%; right: 11%; bottom: 2%; width: 72%; }
   .hero-frame-detail { right: 0; bottom: 10%; width: 39%; height: 29%; border-width: 6px; }
   .hero-image-label { top: 10%; left: 1%; font-size: .52rem; }
-  .hero-side-note { right: -1%; top: 35%; font-size: .75rem; }
-  .hero-art-index { bottom: 0; left: 2%; }
   .scroll-cue { bottom: 15px; left: 5%; font-size: .5rem; }
   .collection-heading-row { align-items: flex-start; }
   .section-index { display: none; }

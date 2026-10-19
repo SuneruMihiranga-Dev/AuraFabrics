@@ -43,11 +43,9 @@ export default function Home() {
             </div>
             <div className="hero-art" aria-label="Editorial saree photography">
               <div className="hero-art-backdrop" />
-              <div className="hero-frame-main"><SareeImage src={editorialImages.hero} alt="Model wearing an elegant red saree with ornate gold detailing" loading="eager" position="center 38%" /></div>
+              <div className="hero-frame-main"><SareeImage src={editorialImages.hero} alt="Model wearing an embroidered royal-blue saree with silver detailing" loading="eager" position="center 28%" /></div>
               <div className="hero-frame-detail"><SareeImage src={editorialImages.heroDetail} alt="Close-up of a saree's intricate fabric and pattern" position="center" /></div>
-              <span className="hero-image-label">THE AURA EDIT <span>№ 01</span></span>
-              <span className="hero-art-index">01 <i /> 03</span>
-              <span className="hero-side-note">A study in timeless drape</span>
+              <span className="hero-image-label">ROYAL BLUE <span>EMBROIDERED</span></span>
             </div>
           </div>
           <a className="scroll-cue" href="#featured" aria-label="Scroll to the collection"><MoveDownRight size={16} /> SCROLL TO DISCOVER</a>
