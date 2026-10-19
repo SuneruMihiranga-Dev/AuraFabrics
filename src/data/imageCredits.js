@@ -10,4 +10,10 @@ export const imageCredits = [
   { photoId: '35737664', source: 'https://www.pexels.com/photo/traditional-indian-woman-in-vibrant-saree-35737664/' },
   { photoId: '10317106', source: 'https://www.pexels.com/photo/close-up-of-silk-saree-with-traditional-pattern-10317106/' },
   { photoId: '30641947', source: 'https://www.pexels.com/photo/elegant-woman-in-traditional-indian-sari-30641947/' },
+  { photoId: '28517477', source: 'https://www.pexels.com/photo/elegant-portrait-of-woman-in-traditional-blue-saree-28517477/' },
+  { photoId: '38619315', source: 'https://www.pexels.com/photo/elegant-woman-in-traditional-black-saree-portrait-38619315/' },
+  { photoId: '36951188', source: 'https://www.pexels.com/photo/elegant-indian-bridal-fashion-in-vibrant-red-saree-36951188/' },
+  { photoId: '20161456', source: 'https://www.pexels.com/photo/portrait-of-woman-in-red-dress-20161456/' },
+  { photoId: '2784078', source: 'https://www.pexels.com/photo/selective-focus-photo-of-standing-woman-in-saree-dress-posing-with-trees-in-the-background-2784078/' },
+  { photoId: '17184874', source: 'https://www.pexels.com/photo/young-indian-woman-in-sari-17184874/' },
 ];

@@ -1,4 +1,4 @@
-import { ArrowUpRight, Instagram, Mail, Phone } from 'lucide-react';
+import { ArrowUpRight, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { siteConfig } from '../config/site.js';
 
@@ -21,7 +21,9 @@ export default function Footer() {
           <p>Have a style in mind? We would love to hear from you.</p>
           <Link className="footer-enquiry" to="/contact">Make an enquiry <ArrowUpRight size={15} /></Link>
           {siteConfig.email && <a className="footer-contact-link" href={`mailto:${siteConfig.email}`}><Mail size={15} />{siteConfig.email}</a>}
-          {siteConfig.phone && <a className="footer-contact-link" href={`tel:${siteConfig.phone}`}><Phone size={15} />{siteConfig.phone}</a>}
+          {siteConfig.phone && <a className="footer-contact-link" href={`tel:${siteConfig.phone.replace(/\s/g, '')}`}><Phone size={15} />{siteConfig.phoneDisplay || siteConfig.phone}</a>}
+          {siteConfig.whatsapp && <a className="footer-contact-link" href={`https://wa.me/${siteConfig.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noreferrer"><Phone size={15} />WhatsApp {siteConfig.whatsappDisplay || siteConfig.whatsapp}</a>}
+          {siteConfig.locationLabel && <span className="footer-contact-link"><MapPin size={15} />{siteConfig.locationLabel}</span>}
           {siteConfig.instagramUrl && <a className="footer-social" href={siteConfig.instagramUrl} target="_blank" rel="noreferrer" aria-label="Aura Fabrics on Instagram"><Instagram size={18} /></a>}
         </div>
       </div>

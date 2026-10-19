@@ -1,21 +1,21 @@
 export const sarees = [
-  { id: 'saree-01', name: 'Blue Heritage Saree', category: 'Silk', image: '/images/saree-blue.jpg', alt: 'A woman wearing a blue Indian saree', position: 'center 24%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
-  { id: 'saree-02', name: 'The Celebration Drape', category: 'Festive', image: '/images/saree-festive.jpg', alt: 'A model in a colorful traditional Indian saree', position: 'center 30%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
-  { id: 'saree-03', name: 'Classic Ivory Saree', category: 'Everyday', image: '/images/saree-ivory.jpg', alt: 'An elegant Indian saree styled for a graceful look', position: 'center 28%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
-  { id: 'saree-04', name: 'Royal Evening Saree', category: 'Festive', image: '/images/saree-evening.jpg', alt: 'A woman in a richly colored traditional saree', position: 'center 22%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
-  { id: 'saree-05', name: 'Woven Grace Saree', category: 'Silk', image: '/images/saree-woven.jpg', alt: 'A woman wearing a blue sari', position: 'center 24%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
-  { id: 'saree-06', name: 'Timeless Floral Saree', category: 'Everyday', image: '/images/saree-floral.jpg', alt: 'A model wearing a vibrant Indian saree', position: 'center 25%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-01', name: 'Blue Heritage Saree', category: 'Silk', image: '/images/saree-royal-blue.jpg', alt: 'Model wearing an ornate deep-blue saree against a warm studio backdrop', position: 'center 45%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-02', name: 'The Celebration Drape', category: 'Festive', image: '/images/saree-festive.jpg', alt: 'Model wearing a vividly patterned multicolor saree', position: 'center 28%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-03', name: 'Classic Black Saree', category: 'Everyday', image: '/images/saree-black.jpg', alt: 'Model wearing a black saree with delicate embroidered details', position: 'center 34%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-04', name: 'Ruby Occasion Saree', category: 'Festive', image: '/images/saree-bridal-red.jpg', alt: 'Model wearing a traditional bright-red saree with ornate borders', position: 'center 32%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-05', name: 'Forest Woven Saree', category: 'Silk', image: '/images/saree-forest.jpg', alt: 'Model wearing a patterned earth-toned saree with teal details outdoors', position: 'center 30%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-06', name: 'Classic Red Saree', category: 'Everyday', image: '/images/saree-red-classic.jpg', alt: 'Model wearing a vivid red saree with a light decorative border', position: 'center 32%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
 ];
 
 export const editorialImages = {
-  hero: '/images/hero-saree.jpg',
+  hero: '/images/saree-royal-blue.jpg',
   heroDetail: '/images/saree-detail.jpg',
-  about: '/images/about-saree.jpg',
-  contact: '/images/saree-blue.jpg',
+  about: '/images/saree-bridal-red.jpg',
+  contact: '/images/saree-forest.jpg',
   story: '/images/saree-detail.jpg',
   moods: {
-    Silk: '/images/saree-woven.jpg',
-    Festive: '/images/saree-festive.jpg',
-    Everyday: '/images/saree-ivory.jpg',
+    Silk: '/images/saree-forest.jpg',
+    Festive: '/images/saree-bridal-red.jpg',
+    Everyday: '/images/saree-black.jpg',
   },
 };
