@@ -17,4 +17,5 @@ export const imageCredits = [
   { photoId: '2784078', source: 'https://www.pexels.com/photo/selective-focus-photo-of-standing-woman-in-saree-dress-posing-with-trees-in-the-background-2784078/' },
   { photoId: '17184874', source: 'https://www.pexels.com/photo/young-indian-woman-in-sari-17184874/' },
   { photoId: '32397666', source: 'https://www.pexels.com/photo/elegant-woman-in-blue-saree-by-indoors-staircase-32397666/' },
+  { photoId: '35108774', source: 'https://www.pexels.com/photo/elegant-woman-in-traditional-indian-saree-35108774/' },
 ];

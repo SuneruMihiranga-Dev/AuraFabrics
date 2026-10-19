@@ -7,7 +7,7 @@ import SareeCard from '../components/SareeCard.jsx';
 import SareeImage from '../components/SareeImage.jsx';
 import { editorialImages, sarees } from '../data/sarees.js';
 
-const filters = ['All', 'Silk', 'Festive', 'Everyday'];
+const filters = ['All', 'Silk', 'Festive', 'Everyday', 'Kanchipuram'];
 const moods = [
   { title: 'Silk Classics', category: 'Silk', copy: 'Graceful textures and timeless appeal.', image: editorialImages.moods.Silk },
   { title: 'Festive Elegance', category: 'Festive', copy: 'A little extra beauty for moments worth celebrating.', image: editorialImages.moods.Festive },

@@ -7,6 +7,7 @@ export const sarees = [
   { id: 'saree-04', name: 'Ruby Occasion Saree', category: 'Festive', image: image('saree-bridal-red.jpg'), alt: 'Model wearing a traditional bright-red saree with ornate borders', position: 'center 32%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
   { id: 'saree-05', name: 'Forest Woven Saree', category: 'Silk', image: image('saree-forest.jpg'), alt: 'Model wearing a patterned earth-toned saree with teal details outdoors', position: 'center 30%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
   { id: 'saree-06', name: 'Classic Red Saree', category: 'Everyday', image: image('saree-red-classic.jpg'), alt: 'Model wearing a vivid red saree with a light decorative border', position: 'center 32%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
+  { id: 'saree-07', name: 'Kanchipuram-Style Saree', category: 'Kanchipuram', image: image('saree-kanchipuram.jpg'), alt: 'Model wearing a traditional green saree with a gold-toned woven border', position: 'center 30%', featured: true, priceLabel: 'Price on enquiry', isPlaceholder: true },
 ];
 
 export const editorialImages = {
