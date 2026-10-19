@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/AuraFabrics/',
+  base: process.env.VERCEL === '1' ? '/' : '/AuraFabrics/',
   plugins: [react(), tailwindcss()],
 });

@@ -35,7 +35,7 @@ npm run preview
 
 ## Deploy
 
-The GitHub Pages project URL for this repository is **https://sunerumihiranga-dev.github.io/AuraFabrics/**. The repository contains a GitHub Actions workflow that builds and deploys the site whenever a commit is pushed to `main`. In the GitHub repository, open **Settings → Pages** and choose **GitHub Actions** under “Build and deployment” the first time. Then push updates to `main` and check the **Actions** tab; the Pages URL updates after the deployment workflow succeeds. The Vite base path and React Router basename are configured for this repository subpath, including the `/about` and `/contact` routes.
+The GitHub Pages project URL for this repository is **https://sunerumihiranga-dev.github.io/AuraFabrics/**. The repository contains a GitHub Actions workflow that builds and deploys the site whenever a commit is pushed to `main`. In the GitHub repository, open **Settings → Pages** and choose **GitHub Actions** under “Build and deployment” the first time. Then push updates to `main` and check the **Actions** tab; the Pages URL updates after the deployment workflow succeeds. The Vite base path and React Router basename are configured for this repository subpath, including the `/about` and `/contact` routes. On Vercel, Vite automatically uses `/` as the base path so the same source works from the domain root.
 
 To publish local changes, stage and commit the edited files, then push the `main` branch (`git add .`, `git commit -m "Describe the update"`, `git push origin main`). Do not commit `.env.local` or private secrets. GitHub Pages deploys the latest committed/pushed source automatically after Pages has been enabled.
 
