@@ -6,7 +6,7 @@ import { editorialImages } from '../data/sarees.js';
 
 const principles = [
   { icon: Sparkles, title: 'Timeless Beauty', copy: 'We are drawn to sarees whose elegance feels at home across generations and occasions.' },
-  { icon: ScanLine, title: 'Attention to Detail', copy: 'A thoughtful border, a lovely texture, a considered finish—the details make the drape.' },
+  { icon: ScanLine, title: 'Attention to Detail', copy: 'A thoughtful border, a lovely texture, a considered finish the details make the drape.' },
   { icon: UserRound, title: 'Personal Expression', copy: 'A saree is deeply personal. We celebrate the many ways each wearer makes it her own.' },
 ];
 
