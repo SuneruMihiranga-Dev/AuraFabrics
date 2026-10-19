@@ -10,7 +10,7 @@ export const sarees = [
 ];
 
 export const editorialImages = {
-  hero: image('saree-royal-blue.jpg'),
+  hero: image('saree-bridal-red.jpg'),
   heroDetail: image('saree-detail.jpg'),
   about: image('saree-bridal-red.jpg'),
   contact: image('saree-forest.jpg'),

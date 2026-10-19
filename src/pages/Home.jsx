@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className="hero-art" aria-label="Editorial saree photography">
               <div className="hero-art-backdrop" />
-              <div className="hero-frame-main"><SareeImage src={editorialImages.hero} alt="Model wearing a traditional saree against a blue backdrop" loading="eager" position="center 24%" /></div>
+              <div className="hero-frame-main"><SareeImage src={editorialImages.hero} alt="Model wearing an elegant red saree with ornate gold detailing" loading="eager" position="center 38%" /></div>
               <div className="hero-frame-detail"><SareeImage src={editorialImages.heroDetail} alt="Close-up of a saree's intricate fabric and pattern" position="center" /></div>
               <span className="hero-image-label">THE AURA EDIT <span>№ 01</span></span>
               <span className="hero-art-index">01 <i /> 03</span>
